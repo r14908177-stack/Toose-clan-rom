@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#10101a">
+<title>TOOSE — Fortnite Clan</title>
+<style>
+:root{--bg:#0b0b12;--panel:#151522;--muted:#aaaabd;--white:#f7f7ff;--purple:#9b6cff;--cyan:#59e1ff;--line:#2a2940}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#34205b 0,transparent 34%),radial-gradient(ellipse at 0% 55%,#102d43 0,transparent 30%),var(--bg);color:var(--white);font-family:Inter,system-ui,Segoe UI,Arial,sans-serif}
+a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0}.logo{font-weight:1000;letter-spacing:5px;font-size:25px}.logo span{color:var(--purple)}.navlink{color:#d6d4e8;font-size:14px}
+.hero{min-height:570px;display:grid;align-content:center;padding:65px 0 75px;position:relative}.eyebrow{color:var(--cyan);font-weight:800;letter-spacing:4px;font-size:12px}.hero h1{font-size:clamp(65px,13vw,132px);line-height:.88;letter-spacing:-7px;margin:20px 0;text-shadow:0 0 45px #986aff55}.hero h1 span{color:var(--purple)}.hero p{color:#c1bfd2;max-width:560px;font-size:18px;line-height:1.65}.actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:25px}.btn{display:inline-flex;justify-content:center;align-items:center;padding:15px 22px;border-radius:12px;font-weight:900;border:1px solid var(--line);transition:.2s;cursor:pointer}.btn:hover{transform:translateY(-2px)}.primary{background:linear-gradient(110deg,var(--purple),#6b5cff);border:0;color:white;box-shadow:0 10px 35px #835bff44}.secondary{background:#ffffff08}.hero-tag{margin-top:35px;color:#8f8da4;font-size:12px;letter-spacing:2px}
+section{padding:58px 0}.section-title{font-size:clamp(30px,5vw,48px);margin:0 0 12px;letter-spacing:-1.5px}.sub{color:var(--muted);line-height:1.6;margin:0 0 28px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.card{background:linear-gradient(145deg,#1a1a2a,#11111b);border:1px solid var(--line);border-radius:18px;padding:23px}.card .num{color:var(--cyan);font-weight:900;font-size:12px;letter-spacing:2px}.card h3{margin:13px 0 8px;font-size:20px}.card p{color:var(--muted);line-height:1.6;margin:0;font-size:14px}
+.testbox{background:linear-gradient(145deg,#19182a,#101019);border:1px solid #393052;border-radius:22px;padding:clamp(20px,4vw,36px);max-width:800px}.progress{height:7px;background:#2b293c;border-radius:9px;overflow:hidden;margin:15px 0 28px}.progress span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--purple),var(--cyan));transition:.25s}.qmeta{color:var(--cyan);font-size:12px;letter-spacing:2px;font-weight:900}.question{font-size:clamp(22px,4vw,30px);margin:12px 0 20px}.answers{display:grid;gap:10px}.answer{width:100%;text-align:left;padding:15px 17px;border-radius:12px;border:1px solid #39374d;background:#ffffff06;color:var(--white);font-size:15px;cursor:pointer}.answer:hover,.answer.selected{border-color:var(--purple);background:#9b6cff20}.test-actions{display:flex;justify-content:space-between;align-items:center;margin-top:22px;gap:12px}.small{font-size:12px;color:var(--muted)}#result{display:none}.score{font-size:54px;font-weight:1000;color:var(--cyan);margin:8px 0}footer{border-top:1px solid var(--line);padding:28px 0;color:#8f8da4;font-size:13px}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:700px){.grid{grid-template-columns:1fr}.hero{min-height:500px}.hero h1{letter-spacing:-4px}.navlink{font-size:12px}.test-actions{align-items:stretch;flex-direction:column}.test-actions .btn{width:100%}}
+</style>
+</head>
+<body>
+<header class="wrap">
+<nav><a class="logo" href="#">TOO<span>SE</span></a><div style="display:flex;gap:18px;align-items:center"><a class="navlink" href="#players">ИГРОКИ</a><a class="navlink" href="#test">ПРОЙТИ ПРОВЕРКУ ↘</a></div></nav>
+</header>
+<main>
+<section class="wrap hero">
+<div class="eyebrow">FORTNITE • CLAN RECRUITMENT</div>
+<h1>PLAY<br><span>AS ONE.</span></h1>
+<p>TOOSE — команда для тех, кто любит Fortnite, умеет работать вместе и хочет становиться сильнее с каждой игрой. Покажи себя и пройди проверку кандидата.</p>
+<div class="actions"><a class="btn primary" href="#test">ПРОЙТИ ПРОВЕРКУ</a><a class="btn secondary" href="https://t.me/Xogure" target="_blank" rel="noopener">TELEGRAM КЛАНА ↗</a></div>
+<div class="hero-tag">YOUR GAME. YOUR TEAM. TOOSE.</div>
+</section>
+<section class="wrap">
+<div class="eyebrow">WHY TOOSE</div><h2 class="section-title">ТВОЯ ИГРА — ТВОЙ ШАНС</h2><p class="sub">Вступление начинается с короткой проверки. Нам важны не только игровые навыки, но и командная игра.</p>
+<div class="grid">
+<article class="card"><div class="num">01 / TEAMPLAY</div><h3>Играем командой</h3><p>Уважение к тиммейтам, коммуникация и совместные решения — основа хорошей команды.</p></article>
+<article class="card"><div class="num">02 / SKILL</div><h3>Растём вместе</h3><p>Важно желание учиться, тренироваться и улучшать свою игру.</p></article>
+<article class="card"><div class="num">03 / RESPECT</div><h3>Уважаем друг друга</h3><p>Без токсичности и лишних конфликтов. Поддерживаем команду и играем честно.</p></article>
+</div>
+</section>
+
+<section class="wrap" id="players">
+<div class="eyebrow">MEET THE TEAM</div><h2 class="section-title">ИГРОКИ TOOSE</h2>
+<p class="sub">Знакомься с нашей командой. Состав будет пополняться!</p>
+<div class="grid">
+<article class="card" style="border-color:#7655c9;background:linear-gradient(145deg,#241b3b,#12121d)">
+<div class="num">TOOSE • PLAYER 001</div>
+<h3 style="font-size:26px;letter-spacing:1px">Voli AURA</h3>
+<p>Игрок клана TOOSE</p>
+</article>
+</div>
+</section>
+
+<section class="wrap" id="test">
+<div class="eyebrow">CANDIDATE TEST</div><h2 class="section-title">ПРОВЕРКА TOOSE</h2><p class="sub">Ответь на 5 вопросов. В конце увидишь результат и сможешь написать нам в Telegram.</p>
+<div class="testbox" id="quiz">
+<div id="quizContent">
+<div class="qmeta" id="qmeta">ВОПРОС 01 / 05</div><div class="progress"><span id="bar"></span></div>
+<h3 class="question" id="question"></h3><div class="answers" id="answers"></div>
+<div class="test-actions"><span class="small">Выбери один ответ</span><button class="btn primary" id="next" disabled>ДАЛЕЕ →</button></div>
+</div>
+<div id="result">
+<div class="qmeta">ПРОВЕРКА ЗАВЕРШЕНА</div><h3 class="question">ТВОЙ РЕЗУЛЬТАТ</h3><div class="score" id="score"></div><p class="sub" id="resultText"></p>
+<div class="actions"><a class="btn primary" href="https://t.me/Xogure" target="_blank" rel="noopener">НАПИСАТЬ В TELEGRAM ↗</a><button class="btn secondary" id="again">ПРОЙТИ ЕЩЁ РАЗ</button></div>
+</div>
+</div>
+</section>
+<section class="wrap">
+<div class="card" style="text-align:center;padding:35px">
+<div class="eyebrow">READY TO JOIN?</div><h2 class="section-title">СЛЕДУЮЩИЙ ШАГ — ЗА ТОБОЙ</h2><p class="sub">Хочешь попасть в TOOSE? Напиши нам в Telegram после проверки.</p><a class="btn primary" href="https://t.me/Xogure" target="_blank" rel="noopener">ПЕРЕЙТИ В @XOGURE ↗</a>
+</div>
+</section>
+</main>
+<footer><div class="wrap foot"><span>© TOOSE CLAN</span><span>Fortnite is a trademark of Epic Games. This is an independent fan-made clan page.</span></div></footer>
+<script>
+const questions=[
+{q:"Что важнее всего в командной игре?",a:["Играть только на себя","Общаться и помогать тиммейтам","Обвинять команду за ошибки"],c:1},
+{q:"Что сделаешь, если тиммейту нужна помощь?",a:["Постараюсь помочь и сообщу команде","Игнорирую ситуацию","Начну спорить"],c:0},
+{q:"Как относишься к тренировкам и улучшению навыков?",a:["Не хочу ничего менять","Готов учиться и становиться лучше","Играю только когда легко побеждать"],c:1},
+{q:"Что делать, если команда проиграла матч?",a:["Обвинить самого слабого","Выйти и оскорбить всех","Разобрать ошибки и попробовать снова"],c:2},
+{q:"Какой игрок подходит команде TOOSE?",a:["Тот, кто уважает других и играет честно","Тот, кто постоянно токсичит","Тот, кто мешает своей команде"],c:0}
+];
+let index=0,score=0,selected=null;
+const $=id=>document.getElementById(id);
+function render(){
+ const q=questions[index];selected=null;$("qmeta").textContent=`ВОПРОС ${String(index+1).padStart(2,"0")} / 05`;
+ $("bar").style.width=`${index/questions.length*100}%`;$("question").textContent=q.q;$("answers").innerHTML="";
+ q.a.forEach((answer,i)=>{const b=document.createElement("button");b.className="answer";b.textContent=answer;b.onclick=()=>{selected=i;document.querySelectorAll(".answer").forEach(x=>x.classList.remove("selected"));b.classList.add("selected");$("next").disabled=false};$("answers").appendChild(b)});
+ $("next").textContent=index===questions.length-1?"УЗНАТЬ РЕЗУЛЬТАТ":"ДАЛЕЕ →";$("next").disabled=true;
+}
+$("next").onclick=()=>{if(selected===null)return;if(selected===questions[index].c)score++;index++;if(index<questions.length)render();else showResult()};
+function showResult(){$("quizContent").style.display="none";$("result").style.display="block";$("score").textContent=`${score} / ${questions.length}`;$("bar").style.width="100%";$("resultText").textContent=score>=4?"Отличный результат! Напиши нам в Telegram, расскажи о себе и обсуди следующий шаг.":score>=2?"Неплохо! Есть над чем поработать. Напиши нам в Telegram — познакомимся и расскажем о дальнейших шагах.":"Это только начало. Продолжай тренироваться и попробуй пройти проверку ещё раз."}
+$("again").onclick=()=>{index=0;score=0;$("result").style.display="none";$("quizContent").style.display="block";render()};
+render();
+</script>
+</body></html>
